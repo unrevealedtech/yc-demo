@@ -21,8 +21,7 @@ export default function App(props: AppProps) {
           withGlobalStyles
           withNormalizeCSS
           theme={{
-            colorScheme:
-              process.env.NODE_ENV === 'development' ? 'dark' : 'light',
+            colorScheme: 'dark',
           }}
         >
           {process.env.NODE_ENV === 'development' && <FeatureToggler />}
