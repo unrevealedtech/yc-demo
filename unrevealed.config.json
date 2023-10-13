@@ -1,0 +1,8 @@
+{
+  "productId": "4f19020c-3263-4a28-b8ac-81e676b72921",
+  "generates": {
+    "src/generated/unrevealed.ts": {
+      "sdk": "react"
+    }
+  }
+}
